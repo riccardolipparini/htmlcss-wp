@@ -33,7 +33,8 @@ li{
     
     width: 80%;
     margin: 50px auto;
-    
+    position: relative;
+    text-align: center;
 }
 
 .banner{
@@ -41,7 +42,23 @@ li{
     object-fit: cover;
     width: 100%;
     height: 500px;
-    
+}
+
+.containimage{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgb(143, 129, 129);
+    padding: 40px;
+    text-align: left;
+}
+.big{
+    font-size: 30px
+}
+
+.small{
+     font-size: 20px;
 }
 
 
@@ -51,41 +68,67 @@ li{
     display: table;
     content: "";
     clear: both;
-    height: 500px;
     width: 80%;
     margin: 0 auto;
-    background-color: rgb(2, 72, 95);
     padding-bottom: 30px;
 }
 
 .cubosopra{
     width: 100%;
-    height:50px;
-    background-color: lightblue;
     margin-bottom: 30px;
+}
+
+.cubosopra p{
+    font-size: 15px;
+    color: grey;
 }
 
 .side{
     float: left;
     width: 25%;
-    background-color: lightblue;
-    height: 500px;
+    color: grey;
+}
+
+.side p{
+    margin-bottom: 20px;
 }
 
 .centre{
     float: left;
     width: 48%;
-    background-color: lightblue;
-    height: 500px;
     margin: 0 1%;
+    color: grey;   
 }
 
+.centre p{
+    margin-bottom: 20px;
+}
 
+.imagealbero{
+    width: 100%
+}
 
+.imagetazza{
+    width: 100%;
+    height: 390px;
+}
+
+.imagelampadina{
+    width: 100%;
+    height: 390px;
+}
+
+/* partefinale */
 footer{
-
     width: 80%;
     margin: 30px auto;
-    height: 100px;
-    background-color: rgb(126, 22, 121)
+}
+
+.designed{
+    margin: 0 auto;
+    text-align: center;
+}
+
+span{
+    color: red;
 }
