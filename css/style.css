@@ -7,21 +7,46 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* header */
 header{
     width: 80%;
     margin: 0 auto;
-    height: 100px;
-    background-color: pink;
+    
 }
+
+#logo{
+    height: 100px;
+    padding-right: 30px;
+    border-right: solid 1px grey;
+}
+
+li{
+    display: inline-block;
+    padding-right: 40px;
+    color: grey;
+    margin-top: 30px;
+}
+
+/* jumbotron */
 
 .firstcube{
     
     width: 80%;
     margin: 50px auto;
-    height: 500px;
-    background-color: rgb(172, 172, 55);
+    
 }
 
+.banner{
+    width: 80%;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    
+}
+
+
+
+/* parte principale */
 .container{
     display: table;
     content: "";
